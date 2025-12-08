@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabin Sigdel | Precision Agriculture & AI</title>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: #050712;
+            color: #d8e1ff;
+            overflow-x: hidden;
+        }
+
+        nav {
+            width: 100%;
+            padding: 20px 60px;
+            position: fixed;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            background: rgba(0,0,15,0.6);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid #14234d;
+        }
+
+        nav h1 { color: #68aaff; letter-spacing: 2px; }
+        nav a {
+            margin-left: 25px;
+            text-decoration: none;
+            color: #a9c5ff;
+            transition: 0.3s;
+        }
+        nav a:hover { color: #68aaff; }
+
+        .hero {
+            height: 95vh;
+            display: flex;
+            align-items: center;
+            padding: 0 60px;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            color: #78baff;
+            text-shadow: 0 0 10px #2e7dff;
+        }
+        .hero p {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            width: 55%;
+            line-height: 1.7;
+        }
+
+        .section {
+            padding: 80px 60px;
+        }
+        .section h3 {
+            color: #78baff;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .project-card {
+            background: #0d132b;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #1a2d60;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background: #1a3c91;
+            color: #d8e1ff;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .download-btn:hover { background: #2754c4; }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            border-top: 1px solid #1a2d60;
+            color: #6c7fab;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h1>SABIN SIGDEL</h1>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#code">Code</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div>
+            <h2>Precision Agriculture • Phenotyping • Deep Learning</h2>
+            <p>
+                I am <b>Sabin Sigdel</b>, working with UAV imagery, plant phenotyping, computer vision, 
+                and deep learning for advanced research in agriculture.  
+                I share my codes, models, and datasets here publicly.
+            </p>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <h3>Projects</h3>
+
+        <div class="project-card">
+            <h4>🌾 Maize Height Estimation Using CHM</h4>
+            <p>UAS-based DSM/DTM processing pipeline with Python + Rasterio + GeoPandas.</p>
+        </div>
+
+        <div class="project-card">
+            <h4>🔥 IFA Mound Detection Using YOLOv8 & Thermal Imaging</h4>
+            <p>Deep learning applied to RGB & thermal datasets for insect mound identification.</p>
+        </div>
+
+        <div class="project-card">
+            <h4>🌱 Cover Crop Phenotyping</h4>
+            <p>NDVI processing, plot segmentation, and height extraction.</p>
+        </div>
+    </section>
+
+    <section class="section" id="code">
+        <h3>Download My Code</h3>
+
+        <p>You can access all Python scripts, deep learning models, and datasets below:</p>
+
+        <a class="download-btn" href="YOUR_GOOGLE_DRIVE_LINK_HERE" target="_blank">Download Code Folder</a>
+        <br>
+        <a class="download-btn" href="YOUR_GITHUB_REPO_LINK_HERE" target="_blank">View GitHub Repository</a>
+    </section>
+
+    <section class="section" id="contact">
+        <h3>Contact</h3>
+        <p>Email: <b>sabin.sigdel@example.com</b></p>
+        <p>GitHub: <b>github.com/YOURUSERNAME</b></p>
+    </section>
+
+    <footer>
+        © 2025 Sabin Sigdel • Precision Agriculture & AI  
+    </footer>
+
+</body>
+</html>
